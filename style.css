@@ -1,7 +1,9 @@
 /*Faelles CSS*/
 
 
-
+* {
+    scroll-behavior: smooth;
+}
 
 
 
