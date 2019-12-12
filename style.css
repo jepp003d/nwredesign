@@ -1,11 +1,6 @@
-/*Faelles CSS*/
+/*----------fælles(1-150)----------*/
 
 
-* {
-    scroll-behavior: smooth;
-    margin: 0;
-    box-sizing: border-box;
-}
 
 
 
@@ -142,248 +137,52 @@
 
 
 
-@media only screen and (min-width: 760px) {
-    h1 {
-        font-family: 'Montserrat';
-        font-weight: 400;
-        font-size: 3rem;
-        text-transform: uppercase;
-        color: black;
-        text-decoration: none;
-        padding: 10px 10px;
 
-    }
 
 
 
-    header {
-        display: flex;
-        justify-content: flex-end;
-        width: 100%;
-        background-color: white;
-        position: fixed;
-        z-index: 200;
 
 
 
-    }
 
-    header nav {
-        display: flex;
 
-        padding: 5px;
-        margin: 7px 100px;
-        /*    align-items: center;*/
 
-    }
+/*----------fælles slut (1-150)----------*/
+/*----------Jeppe (151-300)----------*/
 
-    header nav a {
 
-        font-family: 'Montserrat';
-        font-weight: 400;
-        font-size: 1.5rem;
-        text-transform: uppercase;
-        color: black;
-        text-decoration: none;
-        padding: 10px 10px;
 
 
-    }
 
-    .logo {
-        background-image: url(billeder/ogo/NW_Logo_smallsize.png);
-        background-size: cover;
-        width: 9.5vw;
-        height: 7vh;
 
-        position: absolute;
-        left: 1vw;
-        top: -1vw;
-        margin: 20px 100px;
 
-    }
 
-    .logo1 {
-        position: absolute;
-        left: 16.5vw;
-        top: 0.9vw;
-        font-family: 'Montserrat';
-        font-weight: 700;
-        font-size: 1.5rem;
-        text-transform: uppercase;
-        color: black;
-        text-decoration: none;
-        padding: 10px 10px;
 
-    }
 
-    .logo2 {
-        position: absolute;
-        left: 19.7vw;
-        top: 0.95vw;
-        font-family: 'Montserrat';
-        font-weight: 300;
-        font-size: 1.4rem;
-        text-transform: none;
-        color: black;
-        text-decoration: none;
-        padding: 10px 10px;
 
-    }
 
-    #landingpage {
-        width: 100vw;
-        height: 838px;
-        background-color: #F3F3F3;
 
-        transform: translateY(-80px) skewY(-5deg);
-    }
 
-    /*
-.transform {
-    animation-name: transform_kf;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
-    animation-direction: reverse;
-}
 
-@keyframes transform_kf {
-    0% {
-        background-image: url(billeder/ogo/NW_Logo_big_white.png);
-        background-size: cover;
-        width: 50vw;
-        height: 35vh;
-        position: absolute;
-        top: 18vw;
-        left: 23vw;
-        transform: none;
-    }
 
-    100% {
-        background-image: url(billeder/ogo/NW_Logo_smallsize.png);
-        background-size: cover;
-        width: 50vw;
-        height: 35vh;
-        position: absolute;
-        top: 18vw;
-        left: 23vw;
-        transform: none;
-    }
 
 
-}
-*/
 
 
-    #big_logo {
-        background-image: url(billeder/ogo/NW_Logo_smallsize.png);
-        background-size: cover;
-        width: 50vw;
-        height: 35vh;
-        position: absolute;
-        top: 13vw;
-        left: 23vw;
-        transform: none;
-    }
 
-    .big_logo_text {
-        position: absolute;
-        left: 64.5vw;
-        top: 26.5vw;
-        font-family: 'Montserrat';
-        font-weight: 700;
-        font-size: 1.5rem;
-        text-transform: uppercase;
-        color: black;
-        text-decoration: none;
-        padding: 10px 10px;
-        transform: rotateZ(-63deg);
-    }
 
-    .big_logo_text1 {
-        position: absolute;
-        left: 65.45vw;
-        top: 23vw;
-        font-family: 'Montserrat';
-        font-weight: 300;
-        font-size: 1.4rem;
-        text-transform: none;
-        color: black;
-        text-decoration: none;
-        padding: 10px 10px;
-        transform: rotateZ(-63deg);
-    }
 
 
-    .h1 {
-        position: absolute;
-        left: 45vw;
-        top: 43vw;
-    }
 
-    .news_skew {
-        position: relative;
-        width: 100vw;
-        height: 865px;
-        background-color: #ffffff;
 
-        transform: translateY(-80px) skewY(-5deg);
-    }
 
-    .news {
-        position: absolute;
-        left: 45vw;
-        top: 43vw;
-        z-index: 100;
-    }
 
-    .col_top {
-        position: absolute;
-        background-image: url(billeder/FB_CLOSE_Flyer.jpg);
-        width: 700px;
-        height: 395px;
-        background-size: cover;
-        top: 60vw;
-        left: 30vw;
-        z-index: 100;
-    }
 
-    .col_bottom {
-        position: absolute;
-        background-color: black;
-        left: 45vw;
-        top: 85vw;
-        font-family: 'Montserrat';
-        font-weight: 300;
-        font-size: 1.4rem;
-        text-transform: none;
-        color: white;
-        text-decoration: none;
-        padding: 10px 10px;
-        z-index: 100;
-    }
 
-    #store {
-        position: relative;
-        width: 100vw;
-        height: 838px;
-        background-color: #F3F3F3;
 
-        transform: translateY(-80px) skewY(-5deg);
-    }
 
-    .store {
-        position: absolute;
-        left: 45vw;
-        top: 95.5vw;
-        z-index: 100;
-    }
-}
 
-/*FaellesCSS*/
 
-/*MAJA*/
 
 
 
@@ -488,9 +287,7 @@
 
 
 
-/*MAJA*/
 
-/*JEPPE*/
 
 
 
@@ -500,6 +297,8 @@
 
 
 
+/*----------Jeppe slut (151-300)----------*/
+/*----------Maja (301-450)----------*/
 
 
 
@@ -585,19 +384,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-/*JEPPE*/
-
-/*OLIVER*/
 
 
 .sectionskewed {
@@ -672,6 +458,8 @@
 
 
 
+/*----------Maja Slut (301-450)----------*/
+/*----------Oliver (451-600)----------*/
 
 
 
@@ -712,9 +500,7 @@
 
 
 
-/*OLIVER*/
 
-/*JOSEFINE*/
 
 
 
@@ -820,4 +606,156 @@
 
 
 
-/*JOSEFINE*/
+
+
+/*----------Oliver Slut (451-600)----------*/
+/*----------Josefine (601-750)----------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------Oliver Slut (601-750)----------*/
