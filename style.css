@@ -2,6 +2,7 @@
 body {
     margin: 0;
     box-sizing: border-box;
+    /*    overflow: hidden;*/
 
 
 }
@@ -12,24 +13,26 @@ img {
 
 /*---------Tekst style---------*/
 
+/*
+a {
+    visibility: hidden;
+}
+*/
+
+
+
 h1 {
-    position: absolute;
+    /*    position: absolute;*/
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 0.3em;
     text-transform: uppercase;
-    font-size: 1.6rem;
+    font-size: 1.3rem;
     text-align: center;
     font-weight: 300;
+    /*    left: 40vw;*/
 }
 
-/*
-h1 {
 
-
-
-    left: 45vw;
-}
-*/
 
 h2 {
     font-family: 'Montserrat', sans-serif;
@@ -62,61 +65,7 @@ p {
 /*---------Tekst style SLUT---------*/
 
 /*---------Header design---------*/
-header {
-    font-family: 'Lato', sans-serif;
 
-    font-size: 0.8rem;
-    background-color: white;
-    height: 4rem;
-    text-align: center;
-    font-weight: 400;
-
-}
-
-header nav {
-    /*display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    */
-    padding-top: 1.2rem;
-
-}
-
-/*  så logoet og teksten kan blive delt op i headeren*/
-header nav a {
-    font-size: 1.2rem;
-    padding: 0.5rem;
-    text-transform: uppercase;
-
-
-    color: black;
-}
-
-header nav a:hover {
-    color: #A25F67
-}
-
-header nav b {
-    font-size: 1.2rem;
-    padding: 0.5rem;
-    text-transform: uppercase;
-
-
-
-    color: black;
-}
-
-header nav b:hover {
-    color: #A25F67
-}
-
-
-/*header nav {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    margin: 17px;
-}*/
 /*---------Header design SLUT---------*/
 
 /*---------Button design---------*/
@@ -142,6 +91,9 @@ button:hover {
 /*gør så der ikke er nogle line under <a href="">*/
 a {
     text-decoration: none;
+
+
+
 }
 
 /*---------Button design SLUT---------*/
@@ -158,22 +110,55 @@ a {
 
 
 
+.sectionwrapper {}
+
+#landingpage .logo {
+    background-image: url(img/logo/NW_Gallery_center_big_white.png);
+    position: absolute;
+    background-size: cover;
+    width: 65vw;
+    height: 18vh;
+    left: 15vw;
+    top: 15vw;
+}
+
+#landingpage .sectionwrapper {
+    /*    display: table;*/
+    /*    position: sticky;*/
 
 
 
 
 
+}
 
 #landingpage .skew_grey {
     position: relative;
 
+    /*    transform: skewY(-5deg);*/
+    background-color: #e6e6e6;
+    width: 100%;
+    height: 250px;
+    /*    top: -100px;*/
+    z-index: -1;
+}
+
+#landingpage .skew_grey1 {
+    position: relative;
     transform: skewY(-5deg);
     background-color: #e6e6e6;
     width: 100%;
-    height: 600px;
-    top: -100px;
+    height: 33px;
+    top: -4.5vw;
+}
 
-    z-index: -1;
+
+
+
+
+#landingpage h1 {
+    position: relative;
+    top: -13.5vw;
 }
 
 #store .skew_grey {
@@ -232,7 +217,8 @@ a {
     height: 600px;
     /*    top: -100px;*/
     z-index: -1;
-    overflow:
+
+
 }
 
 
@@ -241,11 +227,21 @@ a {
     position: relative;
     transform: skewY(-5deg);
     background-color: #ffffff;
-    width: 100vw;
-    height: 600px;
-    /*    top: -100px;*/
+    width: 100%;
+
+    height: 1px;
     z-index: -1;
 
+}
+
+#news .col {
+    background-image: url(img/FB_CLOSE_Flyer.jpg);
+    position: relative;
+    background-size: cover;
+    width: 65vw;
+    height: 18vh;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #books .skew_white {
@@ -946,3 +942,66 @@ p {
 
 
 /*----------Oliver Slut (601-750)----------*/
+
+@media only screen and (min-width: 760px) {
+
+    a {
+        visibility: visible;
+    }
+
+    header {
+        font-family: 'Lato', sans-serif;
+
+        font-size: 0.8rem;
+        background-color: white;
+        height: 4rem;
+        text-align: center;
+        font-weight: 400;
+
+    }
+
+    header nav {
+        /*display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    */
+        padding-top: 1.2rem;
+
+    }
+
+    /*  så logoet og teksten kan blive delt op i headeren*/
+    header nav a {
+        font-size: 1.2rem;
+        padding: 0.5rem;
+        text-transform: uppercase;
+
+
+        color: black;
+    }
+
+    header nav a:hover {
+        color: #A25F67
+    }
+
+    header nav b {
+        font-size: 1.2rem;
+        padding: 0.5rem;
+        text-transform: uppercase;
+
+
+
+        color: black;
+    }
+
+    header nav b:hover {
+        color: #A25F67
+    }
+
+
+    /*header nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 17px;
+}*/
+}
