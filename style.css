@@ -1,136 +1,138 @@
 /*----------fælles(1-150)----------*/
+body {
+    margin: 0%;
+
+}
+
+img {
+    /*width: 100%;*/
+}
+
+/*---------Tekst style---------*/
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    text-align: center;
+    font-weight: 300;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.3em;
+    font-size: 1.4rem;
+    text-align: center;
+    margin-top: 3rem;
+    font-weight: 300;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+h3 {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.05rem;
+    letter-spacing: 0.05em;
+    font-weight: bold;
+    font-weight: 300;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+    letter-spacing: 0.05em;
+    font-weight: 300;
+}
+
+.line_space {
+    line-height: 2;
+}
+
+/*---------Tekst style SLUT---------*/
+
+/*---------Header design---------*/
+header {
+    font-family: 'Lato', sans-serif;
+
+    font-size: 0.8rem;
+    background-color: white;
+    height: 4rem;
+    text-align: center;
+    font-weight: 400;
+
+}
+
+header nav {
+    /*display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    */
+    padding-top: 1.2rem;
+
+}
+
+/*  så logoet og teksten kan blive delt op i headeren*/
+header nav a {
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    text-transform: uppercase;
+
+
+    color: black;
+}
+
+header nav a:hover {
+    color: #A25F67
+}
+
+header nav b {
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    text-transform: uppercase;
+
+
+
+    color: black;
+}
+
+header nav b:hover {
+    color: #A25F67
+}
+
+
+/*header nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 17px;
+}*/
+/*---------Header design SLUT---------*/
+
+/*---------Button design---------*/
+
+button {
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    font-size: 0.8rem;
+    background: none;
+
+    /*----hvordan fjerne jeg margin så det kun er når jeg trykker på teksten----*/
+
+    /* så den sidder centret på siden*/
+    display: block;
+    margin: 0 auto;
+}
+
+button:hover {
+    color: #A25F67;
+}
+
+
+/*gør så der ikke er nogle line under <a href="">*/
+a {
+    text-decoration: none;
+}
+
+/*---------Button design SLUT---------*/
 
 
 
