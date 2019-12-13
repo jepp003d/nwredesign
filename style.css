@@ -3,6 +3,7 @@ body {
     margin: 0;
     box-sizing: border-box;
 
+
 }
 
 img {
@@ -12,6 +13,7 @@ img {
 /*---------Tekst style---------*/
 
 h1 {
+    position: absolute;
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 0.3em;
     text-transform: uppercase;
@@ -19,6 +21,15 @@ h1 {
     text-align: center;
     font-weight: 300;
 }
+
+/*
+h1 {
+
+
+
+    left: 45vw;
+}
+*/
 
 h2 {
     font-family: 'Montserrat', sans-serif;
@@ -155,11 +166,13 @@ a {
 
 #landingpage .skew_grey {
     position: relative;
+
     transform: skewY(-5deg);
     background-color: #e6e6e6;
-    width: 100vw;
+    width: 100%;
     height: 600px;
     top: -100px;
+
     z-index: -1;
 }
 
@@ -171,6 +184,34 @@ a {
     height: 600px;
     /*    top: -100px;*/
     z-index: -1;
+}
+
+#store .top .col {
+    background-image: url(billeder/svampebob.png);
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
+
+#books .top .col {
+    background-image: url(billeder/svampebob.png);
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
+
+#workshops .col_top {
+    background-image: url(billeder/svampebob.png);
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
+
+#about .top .col {
+    background-image: url(billeder/svampebob.png);
+    background-size: cover;
+    width: 300px;
+    height: 300px;
 }
 
 #workshops .skew_grey {
@@ -262,12 +303,7 @@ p {
 }
 */
 
-h1 {
 
-    position: absolute;
-    /*    top: 30vw;*/
-    left: 45vw;
-}
 
 /*
 #store .skew {
