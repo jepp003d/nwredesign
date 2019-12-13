@@ -19,6 +19,29 @@ a {
 }
 */
 
+/*
+a {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    text-align: center;
+    font-weight: 300;
+    display: block;
+    margin: 0 auto;
+}
+*/
+
+#more_button {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.1em;
+    /*    text-transform: uppercase;*/
+    font-size: 0.9rem;
+    text-align: center;
+    font-weight: 300;
+    display: block;
+    margin: 0 auto;
+}
 
 
 h1 {
@@ -28,7 +51,7 @@ h1 {
     text-transform: uppercase;
     font-size: 1.3rem;
     text-align: center;
-    font-weight: 300;
+    font-weight: 400;
     /*    left: 40vw;*/
 }
 
@@ -274,57 +297,10 @@ a {
     /*    margin: 10vw;*/
 }
 
-/*
-#news .skew {
-    position: absolute;
-    transform: skewY(-5deg);
-    background-color: #f41414;
-
-    width: 100vw;
-    height: 100%;
-
-        top: -100px;
-
-
-
-
-    z-index: -1;
-
-}
-*/
-
-/*
-p {
-    position: absolute;
-}
-*/
-
-
-
-/*
-#store .skew {
-
-    position: absolute;
-    transform: skewY(-5deg);
-    background-color: skyblue;
-    ;
-
-    width: 100vw;
-
-    height: 100%;
-    z-index: -1;
-
+#news h1 {
     position: relative;
-    transform: skewY(-5deg);
-    background-color: aqua;
-    width: 1920px;
-    height: 600px;
-    top: -100px;
-
-
-
+    top: 7vw;
 }
-*/
 
 
 /*----------fælles slut (1-150)----------*/
