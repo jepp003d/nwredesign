@@ -574,6 +574,17 @@ p {
 
 
 
+.sectionskewed {
+
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    background: #F3F3F3;
+    -webkit-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    transform: translateY(100%);
+}
+
 
 
 
@@ -637,7 +648,6 @@ p {
 
 /*----------Maja Slut (301-450)----------*/
 /*----------Oliver (451-600)----------*/
-
 
 
 
