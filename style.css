@@ -147,7 +147,158 @@
 
 
 
+body {
+    margin: 0;
+}
+
+
+#landingpage .skew_grey {
+    position: relative;
+    transform: skewY(-5deg);
+    background-color: #e6e6e6;
+    width: 100vw;
+    height: 600px;
+    top: -100px;
+    z-index: -1;
+}
+
+#store .skew_grey {
+    position: relative;
+    transform: skewY(-5deg);
+    background-color: #e6e6e6;
+    width: 100vw;
+    height: 600px;
+    /*    top: -100px;*/
+    z-index: -1;
+}
+
+#workshops .skew_grey {
+    position: relative;
+    transform: skewY(-5deg);
+    background-color: #e6e6e6;
+    width: 100vw;
+    height: 600px;
+    /*    top: -100px;*/
+    z-index: -1;
+}
+
+#footer .skew_grey {
+    position: relative;
+    transform: skewY(-5deg);
+    background-color: #e6e6e6;
+    width: 100vw;
+    height: 600px;
+    /*    top: -100px;*/
+    z-index: -1;
+    overflow:
+}
+
+
+
+#news .skew_white {
+    position: relative;
+    transform: skewY(-5deg);
+    background-color: #ffffff;
+    width: 100vw;
+    height: 600px;
+    /*    top: -100px;*/
+    z-index: -1;
+
+}
+
+#books .skew_white {
+    position: relative;
+    transform: skewY(-5deg);
+    background-color: #ffffff;
+    width: 100vw;
+    height: 600px;
+    /*    top: -100px;*/
+    z-index: -1;
+}
+
+#about .skew_white {
+    position: relative;
+    transform: skewY(-5deg);
+    background-color: #ffffff;
+    width: 100vw;
+    height: 600px;
+    /*    top: -100px;*/
+    z-index: -1;
+}
+
+#news,
+#store,
+#books,
+#workshops,
+#about,
+#footer {
+    position: relative;
+    /*    margin: 10vw;*/
+}
+
+/*
+#news .skew {
+    position: absolute;
+    transform: skewY(-5deg);
+    background-color: #f41414;
+
+    width: 100vw;
+    height: 100%;
+
+        top: -100px;
+
+
+
+
+    z-index: -1;
+
+}
+*/
+
+/*
+p {
+    position: absolute;
+}
+*/
+
+h1 {
+
+    position: absolute;
+    /*    top: 30vw;*/
+    left: 45vw;
+}
+
+/*
+#store .skew {
+
+    position: absolute;
+    transform: skewY(-5deg);
+    background-color: skyblue;
+    ;
+
+    width: 100vw;
+
+    height: 100%;
+    z-index: -1;
+
+    position: relative;
+    transform: skewY(-5deg);
+    background-color: aqua;
+    width: 1920px;
+    height: 600px;
+    top: -100px;
+
+
+
+}
+*/
+
+
 /*----------fælles slut (1-150)----------*/
+
+
+
+
 /*----------Jeppe (151-300)----------*/
 
 
