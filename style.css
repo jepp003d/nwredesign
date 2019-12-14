@@ -189,16 +189,32 @@ a {
     transform: skewY(-5deg);
     background-color: #e6e6e6;
     width: 100vw;
-    height: 600px;
+    height: 500px;
     /*    top: -100px;*/
     z-index: -1;
 }
 
-#store .top .col {
-    background-image: url(billeder/svampebob.png);
+#news .col {
+    background-image: url(img/FB_CLOSE_Flyer.jpg);
+    position: relative;
     background-size: cover;
-    width: 300px;
-    height: 300px;
+    width: 65vw;
+    height: 18vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#store .top .col_narrow {
+    position: relative;
+    background-image: url(img/IMG_9248.jpg);
+    background-size: cover;
+    width: 65vw;
+    top: -100vw;
+    height: 45vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:
+
 }
 
 #books .top .col {
@@ -257,15 +273,7 @@ a {
 
 }
 
-#news .col {
-    background-image: url(img/FB_CLOSE_Flyer.jpg);
-    position: relative;
-    background-size: cover;
-    width: 65vw;
-    height: 18vh;
-    margin-left: auto;
-    margin-right: auto;
-}
+
 
 #books .skew_white {
     position: relative;
