@@ -766,160 +766,170 @@ a {
 /*----------Josefine (601-750)----------*/
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+a {
+    visibility: visible;
+}
+
+header {
+    font-family: 'Lato', sans-serif;
+    background-color: transparent;
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+    height: 4rem;
+    text-align: center;
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+
+
+header nav a {
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    text-transform: uppercase;
+    color: black;
+    text-decoration: none;
+
+}
+
+.header nav a:hover {
+    color: #A25F67;
+}
+
+.header ul {
+    margin: 0;
+    padding-right: 20px;
+    list-style: none;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+.header ul a {
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.header ul a:hover {}
+
+.header .logo {
+    float: left;
+}
+
+.header .menu {
+    clear: both;
+    max-height: 0;
+    transition: max-height .2s ease-out;
+}
+
+.header .menu-icon {
+    padding: 28px 20px;
+    position: relative;
+    float: right;
+    cursor: pointer;
+}
+
+.header .menu-icon .nav-icon {
+    background: #333;
+    display: block;
+    height: 2px;
+    width: 18px;
+    position: relative;
+    transition: background .2s ease-out;
+}
+
+.header .menu-icon .nav-icon:before {
+    background: #333;
+    content: "";
+    display: block;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    top: 5px;
+    transition: all .2s ease-out;
+}
+
+.header .menu-icon .nav-icon:after {
+    background: #333;
+    content: "";
+    display: block;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    top: -5px;
+    transition: all .2s ease-out;
+}
+
+.header .menu-btn {
+    display: none;
+
+}
+
+.header .menu-btn:checked ~ .menu {
+    max-height: 440px;
+}
+
+.header .menu-btn:checked ~ .menu-icon .nav-icon {
+    background: transparent;
+}
+
+.header .menu-btn:checked ~ .menu-icon .nav-icon:before {
+    transform: rotate(-45deg);
+    top: 0;
+}
+
+.header .menu-btn:checked ~ .menu-icon .nav-icon:after {
+    transform: rotate(45deg);
+    top: 0;
+}
+
+
+@media (min-width:760px) {
+
+    .header {
+        text-align: center;
+        padding-right: 20vw;
+        background-color: white;
+    }
+
+    .header ul {
+        padding-right: 400px;
+        background-color: white;
+    }
+
+    .header li {
+        float: left;
+    }
+
+    .header li a {
+        padding: 20px 10px;
+    }
+
+    .header .menu {
+        clear: none;
+        float: right;
+        max-height: none;
+        align-content: center;
+    }
+
+    .header .menu-icon {
+        display: none;
+    }
+}
 
 
 
 /*----------Oliver Slut (601-750)----------*/
 
+/*
 @media only screen and (min-width: 760px) {
 
     a {
         visibility: visible;
     }
+*/
 
+/*
     header {
         font-family: 'Lato', sans-serif;
 
@@ -930,17 +940,21 @@ a {
         font-weight: 400;
 
     }
+*/
 
+/*
     header nav {
-        /*display: flex;
+        display: flex;
     flex-direction: column;
     align-items: flex-end;
-    */
+
         padding-top: 1.2rem;
 
     }
+*/
 
-    /*  så logoet og teksten kan blive delt op i headeren*/
+/*  så logoet og teksten kan blive delt op i headeren*/
+/*
     header nav a {
         font-size: 1.2rem;
         padding: 0.5rem;
@@ -949,11 +963,15 @@ a {
 
         color: black;
     }
+*/
 
+/*
     header nav a:hover {
         color: #A25F67
     }
+*/
 
+/*
     header nav b {
         font-size: 1.2rem;
         padding: 0.5rem;
@@ -963,13 +981,16 @@ a {
 
         color: black;
     }
+*/
 
+/*
     header nav b:hover {
         color: #A25F67
     }
+*/
 
 
-    /*header nav {
+/*header nav {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
