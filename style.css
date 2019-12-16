@@ -11,52 +11,6 @@ img {
     /*width: 100%;*/
 }
 
-/*---------Tekst style---------*/
-
-/*
-a {
-    visibility: hidden;
-}
-*/
-
-/*
-a {
-    font-family: 'Montserrat', sans-serif;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    font-size: 0.9rem;
-    text-align: center;
-    font-weight: 300;
-    display: block;
-    margin: 0 auto;
-}
-*/
-
-#more_button {
-    font-family: 'Montserrat', sans-serif;
-    letter-spacing: 0.1em;
-    /*    text-transform: uppercase;*/
-    font-size: 0.9rem;
-    text-align: center;
-    font-weight: 300;
-    display: block;
-    margin: 0 auto;
-}
-
-
-h1 {
-    /*    position: absolute;*/
-    font-family: 'Montserrat', sans-serif;
-    letter-spacing: 0.3em;
-    text-transform: uppercase;
-    font-size: 1.3rem;
-    text-align: center;
-    font-weight: 400;
-    /*    left: 40vw;*/
-}
-
-
-
 h2 {
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 0.3em;
@@ -84,6 +38,39 @@ p {
 .line_space {
     line-height: 2;
 }
+
+#more_button {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.1em;
+    /*    text-transform: uppercase;*/
+    font-size: 0.9rem;
+    text-align: center;
+    font-weight: 300;
+    display: block;
+    margin: 0 auto;
+}
+
+
+h1 {
+    /*    position: absolute;*/
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    text-align: center;
+    font-weight: 400;
+    /*    left: 40vw;*/
+}
+
+/*---------Tekst style---------*/
+
+
+
+
+
+
+
+
 
 /*---------Tekst style SLUT---------*/
 
