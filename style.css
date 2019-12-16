@@ -204,18 +204,19 @@ a {
 
 }
 
-#books .top .col {
-    background-image: url(billeder/svampebob.png);
+#books .col_narrow {
+    background-image: url(img/billeder_05_content/books.jpg);
     background-size: cover;
     width: 300px;
-    height: 300px;
+    height: 900px;
 }
 
 #workshops .col_top {
-    background-image: url(billeder/svampebob.png);
+    background-image: url(img/billeder_05_content/New_Final_%20FLYER_JH.jpg);
     background-size: cover;
-    width: 300px;
-    height: 300px;
+    width: 65vw;
+    height: 18vh;
+
 }
 
 #about .top .col {
@@ -285,8 +286,8 @@ a {
 #news,
 #store,
 #books,
-#workshops,
-#about,
+
+#workshops #about,
 #footer {
     position: relative;
     /*    margin: 10vw;*/
@@ -305,8 +306,158 @@ a {
 
 /*----------Jeppe (151-300)----------*/
 
+#close .col_wide {
+    background-image: url(img/FB_CLOSE_Flyer.jpg);
+    position: relative;
+    background-size: cover;
+    width: 65vw;
+    height: 18vh;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
+#kalender .img_1 {
+    background-image: url(img/billeder_05_content/kalender_01.jpg);
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+
+}
+
+#kalender .img_2 {
+    background-image: url(img/billeder_05_content/kalender_02.jpg);
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+
+}
+
+#kalender .img_3 {
+    background-image: url(img/billeder_05_content/kalender_03.jpg);
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+}
+
+#books_site .book_1 {
+    background-image: url(img/books/eyeofthecyclops.jpg);
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+}
+
+#books_site .book_2 {
+    background-image: url(img/books/itch.jpg);
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+}
+
+#books_site .book_3 {
+    background-image: url(img/books/sameti.jpg);
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+}
+
+#books_site .book_5 {
+    background-image: url(img/books/surfacingkatinkagolderberg.jpg);
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+}
+
+#books_site .book_5 {
+    background-image: url(img/books/bogudennavn.jpg);
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+}
+
+#onlineshop .store_1 {
+    background-image: url(img/billeder_05_content/store_01.jpg);
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+}
+
+#onlineshop .store_2 {
+    background-image: url(img/billeder_05_content/store_02.jpg);
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+}
+
+#shop_in_store .img_1 {
+    background-image: url(img/billeder_05_content/1.jpg);
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+}
+
+#shop_in_store .img_2 {
+    background-image: url(img/billeder_05_content/2);
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+}
+
+#shop_in_store .img_3 {
+    background-image: url(img/billeder_05_content/3);
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+}
+
+#shop_in_store .img_4 {
+    background-image: url(img/billeder_05_content/4);
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+}
+
+#about_gallery .about_1 {
+    background-image: url(img/billeder_05_content/about_01.jpg);
+    background-size: cover;
+    width: 400px;
+    height: 200px;
+}
+
+#about_gallery .about_2 {
+    background-image: url(img/billeder_05_content/about_02.jpg);
+    background-size: cover;
+    width: 400px;
+    height: 200px;
+}
+
+#about_gallery .about_3 {
+    background-image: url(img/billeder_05_content/about_03.jpg);
+    background-size: cover;
+    width: 400px;
+    height: 200px;
+}
+
+#about_gallery .about_4 {
+    background-image: url(img/billeder_05_content/about_04.jpg);
+    background-size: cover;
+    width: 400px;
+    height: 200px;
+}
+
+#about_gallery .about_5 {
+    background-image: url(img/billeder_05_content/about_05.jpg);
+    background-size: cover;
+    width: 400px;
+    height: 200px;
+}
+
+#about_gallery .about_6 {
+    background-image: url(img/billeder_05_content/about_06.jpg);
+    background-size: cover;
+    width: 400px;
+    height: 200px;
+}
 
 
 
@@ -613,7 +764,7 @@ a {
 
 
 
-/*----------Maja Slut (301-450)----------*/
+/*----------Maja Slut (301-616)----------*/
 /*----------Oliver (451-600)----------*/
 
 
@@ -790,6 +941,7 @@ header nav a {
     color: black;
     text-decoration: none;
 
+
 }
 
 .header nav a:hover {
@@ -814,6 +966,8 @@ header nav a {
 
 .header .logo {
     float: left;
+    position: relative;
+    background-image: url(img/logo/);
 }
 
 .header .menu {
